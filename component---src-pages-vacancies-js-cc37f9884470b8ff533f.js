@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{253:function(e,a,n){"use strict";n.r(a);var t=n(0),c=n.n(t),l=n(27),i=n(232);n(254);a.default=function(e){e.data;return c.a.createElement(i.a,null,c.a.createElement("section",null,c.a.createElement("h1",null,c.a.createElement(l.b,{id:"pages.vacancies"})),c.a.createElement("p",null,c.a.createElement(l.b,{id:"vacancies-page.no-vacancies"}))))}}}]);
-//# sourceMappingURL=component---src-pages-vacancies-js-cc37f9884470b8ff533f.js.map

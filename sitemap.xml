@@ -57,6 +57,8 @@
 <url> <loc>https://mpd.chemphys.ru/en/research-projects/imaging-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/research-projects/imaging-3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/en/research-projects/imaging-3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mpd.chemphys.ru/vacancies/vacancy-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mpd.chemphys.ru/en/vacancies/vacancy-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/en/404/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/en/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/en/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
