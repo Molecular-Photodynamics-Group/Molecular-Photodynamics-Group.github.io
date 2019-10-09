@@ -27,6 +27,7 @@
 
   &__position {
     margin-top: 0;
+    margin-bottom: 0.5rem;
   }
 
   &__interests-label {
@@ -72,7 +73,7 @@
     flex: 0 0 auto;
   }
 
-  &__level {
-    color: #aaa;
+  &__diploma {
+    margin-bottom: 0;
   }
 }

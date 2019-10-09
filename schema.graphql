@@ -487,6 +487,7 @@ type MarkdownRemarkFields {
 type MarkdownRemarkFrontmatter {
     active: Boolean
     author: String
+    degree: String
     doi: String
     educations: [MarkdownRemarkFrontmatterEducations]
     firstName: String
@@ -1029,6 +1030,7 @@ enum FileFieldsEnum {
     childMarkdownRemark___fileAbsolutePath @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     childMarkdownRemark___frontmatter___active
     childMarkdownRemark___frontmatter___author
+    childMarkdownRemark___frontmatter___degree
     childMarkdownRemark___frontmatter___doi
     childMarkdownRemark___frontmatter___educations
     childMarkdownRemark___frontmatter___educations___diploma
@@ -1464,6 +1466,7 @@ enum MarkdownRemarkFieldsEnum {
     fileAbsolutePath @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     frontmatter___active
     frontmatter___author
+    frontmatter___degree
     frontmatter___doi
     frontmatter___educations
     frontmatter___educations___diploma
@@ -2355,6 +2358,7 @@ input MarkdownRemarkFrontmatterEducationsFilterListInput {
 input MarkdownRemarkFrontmatterFilterInput {
     active: BooleanQueryOperatorInput
     author: StringQueryOperatorInput
+    degree: StringQueryOperatorInput
     doi: StringQueryOperatorInput
     educations: MarkdownRemarkFrontmatterEducationsFilterListInput
     firstName: StringQueryOperatorInput

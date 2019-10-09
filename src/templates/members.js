@@ -35,6 +35,7 @@ export default ({ data, pageContext: { locale } }) => {
         <section className="member__info-block">
           <div className="member__info card card--left">
             <h3 className="member__position">{member.position}</h3>
+            <div className="member__degree">{member.degree}</div>
             {
               member.interests &&
               <div className="member__interests">
@@ -72,8 +73,8 @@ export default ({ data, pageContext: { locale } }) => {
                       </div>
                     }
                   </div>
-                  <div className="education__level">{e.level}</div>
-                  <div className="education__diploma" dangerouslySetInnerHTML={{ __html: e.diploma }} />
+                  <p className="education__level">{e.level}</p>
+                  <p className="education__diploma" dangerouslySetInnerHTML={{ __html: e.diploma }} />
                 </div>
               ))}
             </div>
@@ -110,6 +111,7 @@ export const query = graphql`
                         firstName
                         middleName
                         lastName
+                        degree
                         photo {
                             childImageSharp {
                                 fluid(maxWidth: 300) {
