@@ -33,10 +33,10 @@
 <url> <loc>https://mpd.chemphys.ru/en/publications/10.1021__acs.jpcc.8b09381</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/publications/10.1021__jp301471e</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/en/publications/10.1021__jp301471e</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mpd.chemphys.ru/publications/10.1039__C5CP03129J</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mpd.chemphys.ru/en/publications/10.1039__C5CP03129J</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/publications/10.1039__C6CP02160C</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/en/publications/10.1039__C6CP02160C</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mpd.chemphys.ru/publications/10.1039__C5CP03129J</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mpd.chemphys.ru/en/publications/10.1039__C5CP03129J</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/publications/10.1063__1.1841952</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/en/publications/10.1063__1.1841952</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/publications/10.1063__1.3503973</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -53,10 +53,8 @@
 <url> <loc>https://mpd.chemphys.ru/en/publications/10.1134__S0020441219040043</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/research-projects/gas-phase-approach-to-heterogeneous-photocatalysis</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/en/research-projects/gas-phase-approach-to-heterogeneous-photocatalysis</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mpd.chemphys.ru/research-projects/imaging-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mpd.chemphys.ru/en/research-projects/imaging-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mpd.chemphys.ru/research-projects/imaging-3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mpd.chemphys.ru/en/research-projects/imaging-3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mpd.chemphys.ru/research-projects/weakly-bound-oxygen-complexes-as-a-new-source-of-singlet-oxygen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mpd.chemphys.ru/en/research-projects/weakly-bound-oxygen-complexes-as-a-new-source-of-singlet-oxygen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/vacancies/vacancy-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/en/vacancies/vacancy-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mpd.chemphys.ru/en/404/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
