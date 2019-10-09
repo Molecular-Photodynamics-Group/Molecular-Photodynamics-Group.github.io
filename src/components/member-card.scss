@@ -22,11 +22,12 @@
   }
 
   &__name {
-    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
   }
 
   &__position {
-    color: #aaa;
     font-size: smaller;
   }
 

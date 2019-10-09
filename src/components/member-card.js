@@ -12,7 +12,7 @@ export const MemberCard = ({ name, photo, slug, position }) => {
         <Img className="member-card__image" fluid={photo.childImageSharp.fluid} alt={name}/>
       </div>
       <div className="member-card__info">
-        <div className="member-card__name">{name}</div>
+        <h3 className="member-card__name">{name}</h3>
         <div className="member-card__position">{position}</div>
         <Link className="member-card__more-link" to={slug}>
           <FormattedMessage id="common.more-details" />
