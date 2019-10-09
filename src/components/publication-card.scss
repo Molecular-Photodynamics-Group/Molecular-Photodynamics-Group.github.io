@@ -2,7 +2,15 @@
   padding: 15px 15px;
 
   &__title {
-    margin-top: 0px;
+    margin-top: 0;
+  }
+
+  &__title-link {
+    color: black;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__links {
