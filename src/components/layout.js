@@ -19,6 +19,10 @@ export const Layout = ({ children, title, description }) => {
     siteDescription = description
   }
 
+  // Remove HTML tags
+  siteTitle = siteTitle.replace(/<[^>]+>/g, '');
+  siteDescription = siteDescription.replace(/<[^>]+>/g, '');
+
   return (
     <div className="layout">
       <Helmet>
