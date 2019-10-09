@@ -9,10 +9,12 @@ export const ResearchProjectCard = ({ title, photo, slug }) => {
   return (
     <article className="research-project-card card card--right card--with-hover">
       <div className="research-project-card__image-wrapper">
-        <Img className="research-project-card__image" fluid={photo.childImageSharp.fluid} alt={title}/>
+        <Img className="research-project-card__image" fluid={photo.childImageSharp.fluid} alt={title} />
       </div>
       <div className="research-project-card__info">
-        <h3 className="research-project-card__title">{title}</h3>
+        <h3 className="research-project-card__title">
+          <span dangerouslySetInnerHTML={{ __html: title }} />
+        </h3>
         <Link className="research-project-card__more-link" to={slug}>
           <FormattedMessage id="common.more-details" />
         </Link>
