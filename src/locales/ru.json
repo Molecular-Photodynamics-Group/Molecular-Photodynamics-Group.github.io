@@ -31,6 +31,9 @@
     "now": "настоящее время",
     "publications": "Публикации"
   },
+  "research-project-page": {
+    "publications": "Публикации"
+  },
   "vacancies-page": {
     "no-vacancies": "К сожалению, в данный момент у нас нет вакансий"
   }

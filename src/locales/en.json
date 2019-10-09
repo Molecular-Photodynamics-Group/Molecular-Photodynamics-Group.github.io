@@ -31,6 +31,9 @@
     "now": "now",
     "publications": "Publications"
   },
+  "research-project-page": {
+    "publications": "Publications"
+  },
   "vacancies-page": {
     "no-vacancies": "Unfortunately, at the moment we have no vacancies"
   }

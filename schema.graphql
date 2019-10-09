@@ -502,6 +502,7 @@ type MarkdownRemarkFrontmatter {
     pages: String
     photo: File
     position: String
+    researchProjects: [String]
     title: String
     volume: String
     year(
@@ -1085,6 +1086,7 @@ enum FileFieldsEnum {
     childMarkdownRemark___frontmatter___photo___sourceInstanceName
     childMarkdownRemark___frontmatter___photo___uid
     childMarkdownRemark___frontmatter___position
+    childMarkdownRemark___frontmatter___researchProjects
     childMarkdownRemark___frontmatter___title
     childMarkdownRemark___frontmatter___volume
     childMarkdownRemark___frontmatter___year
@@ -1546,6 +1548,7 @@ enum MarkdownRemarkFieldsEnum {
     frontmatter___photo___sourceInstanceName
     frontmatter___photo___uid
     frontmatter___position
+    frontmatter___researchProjects
     frontmatter___title
     frontmatter___volume
     frontmatter___year
@@ -2373,6 +2376,7 @@ input MarkdownRemarkFrontmatterFilterInput {
     pages: StringQueryOperatorInput
     photo: FileFilterInput
     position: StringQueryOperatorInput
+    researchProjects: StringQueryOperatorInput
     title: StringQueryOperatorInput
     volume: StringQueryOperatorInput
     year: DateQueryOperatorInput
