@@ -1,7 +1,7 @@
 const path = require(`path`)
 
 const { defaultLocale, locales } = require("./src/intl/locales")
-const { groupBy } =  require("./src/utils/group-by")
+const { groupBy } = require("./src/utils/group-by")
 
 exports.onCreateNode = ({ node, getNode, actions, getNodes }) => {
   const { createNodeField } = actions
@@ -16,7 +16,11 @@ exports.onCreateNode = ({ node, getNode, actions, getNodes }) => {
       locale = possibleLocale
     }
 
-    const name = fileNode.name.replace(`.${locale}`, "")
+    let name = fileNode.name.replace(`.${locale}`, "")
+
+    if (fileNode.relativeDirectory === "publications") {
+      name = name.replace("__", "/")
+    }
 
     createNodeField({
       node,
@@ -66,13 +70,13 @@ exports.createPages = async ({ graphql, actions }) => {
   await Object.keys(groupedNodes).map(async slug => {
     const values = groupedNodes[slug]
 
-    const defaultNode = values.filter(e => e.fields.locale === defaultLocale).shift();
+    const defaultNode = values.filter(e => e.fields.locale === defaultLocale).shift()
 
     await locales.map(async locale => {
-      let node = values.filter(e => e.fields.locale === locale).shift();
+      let node = values.filter(e => e.fields.locale === locale).shift()
 
       if (!node) {
-        node = defaultNode;
+        node = defaultNode
       }
 
       await createLocalizedPage(
@@ -83,7 +87,7 @@ exports.createPages = async ({ graphql, actions }) => {
             name: node.fields.name,
             type: node.fields.type,
             slug: node.fields.slug,
-            locale
+            locale,
           },
         },
         locale,
@@ -104,8 +108,8 @@ exports.onCreatePage = async ({ page, actions }) => {
         ...page,
         context: {
           ...page.context,
-          locale
-        }
+          locale,
+        },
       }, locale, createPage)
   })
 }
