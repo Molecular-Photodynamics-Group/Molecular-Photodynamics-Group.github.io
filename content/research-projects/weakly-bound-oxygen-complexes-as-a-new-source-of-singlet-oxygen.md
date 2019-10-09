@@ -1,4 +1,5 @@
 ---
+order: 3
 title: Слабосвязанные комплексы Х-О<sub>2</sub> как новый источник синглетного кислорода
 photo: ../../images/research-projects/default.jpg
 ---

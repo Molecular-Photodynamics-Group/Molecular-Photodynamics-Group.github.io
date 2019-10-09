@@ -12,6 +12,7 @@ import "./research-projects.scss"
 export default ({ data, pageContext: { locale } }) => {
   const nodes = data.allMarkdownRemark.edges.map(e => e.node)
   const localizedNodes = getLocalizedNodes(nodes, locale, defaultLocale)
+    .sort((a, b) => +a.frontmatter.order - +b.frontmatter.order)
 
   const { formatMessage } = useIntl()
   const title = formatMessage({ id: "pages.research-projects" })
@@ -46,6 +47,7 @@ export const query = graphql`
                 node {
                     id
                     frontmatter {
+                        order
                         title,
                         photo {
                             childImageSharp {
