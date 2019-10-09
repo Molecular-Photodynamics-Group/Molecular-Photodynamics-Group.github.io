@@ -7,7 +7,7 @@ import "./research-project-card.scss"
 
 export const ResearchProjectCard = ({ title, photo, slug }) => {
   return (
-    <article className="research-project-card card card--right card--with-hover">
+    <article className="research-project-card card card--with-hover">
       <div className="research-project-card__image-wrapper">
         <Img className="research-project-card__image" fluid={photo.childImageSharp.fluid} alt={title} />
       </div>

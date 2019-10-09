@@ -1,8 +1,23 @@
+@import "../styles/common";
+
 .research-project-card {
   display: grid;
-  grid-template-columns: 200px 1fr;
-  grid-template-areas: 'image info';
   grid-gap: 10px;
+
+  grid-template-columns: auto;
+  grid-template-rows: 200px 1fr;
+  grid-template-areas: 'image' 'info';
+
+  border-bottom: 2px solid #d65947;
+
+  @media screen and (min-width: 950px) {
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 'image info';
+
+    border-bottom: none;
+    border-right: 2px solid #d65947;
+  }
 
   &__image-wrapper {
     grid-area: image;
