@@ -3,6 +3,7 @@ order: 2
 firstName: Alexandr
 lastName: Bogomolov
 position: Researcher
+degree: PhD in Physics
 photo: ../../images/members/a-bogomolov.jpg
 educations:
   - start: 2007

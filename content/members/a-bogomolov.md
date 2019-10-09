@@ -4,6 +4,7 @@ firstName: Александр
 middleName: Сергеевич
 lastName: Богомолов
 position: Научный сотрудник
+degree: к.ф.-м.н.
 photo: ../../images/members/a-bogomolov.jpg
 educations:
   - start: 2007

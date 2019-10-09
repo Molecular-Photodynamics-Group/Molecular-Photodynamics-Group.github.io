@@ -3,6 +3,7 @@ order: 3
 firstName: Kirill
 lastName: Ershov
 position: Junior Researcher
+degree: Master of Science in Physics
 photo: ../../images/members/default.jpg
 educations:
   - start: 2011

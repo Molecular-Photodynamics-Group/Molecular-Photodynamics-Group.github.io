@@ -4,6 +4,7 @@ firstName: Александра
 middleName: Павловна
 lastName: Пыряева
 position: Научный сотрудник
+degree: к.ф.-м.н.
 photo: ../../images/members/a-pyryaeva.jpg
 educations:
   - start: 2005

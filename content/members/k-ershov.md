@@ -4,6 +4,7 @@ firstName: Кирилл
 middleName: Сергеевич
 lastName: Ершов
 position: Младший научный сотрудник
+degree: Магистр физики
 photo: ../../images/members/default.jpg
 educations:
   - start: 2011

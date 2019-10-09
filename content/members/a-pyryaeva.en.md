@@ -3,6 +3,7 @@ order: 2
 firstName: Alexandra
 lastName: Pyryaeva
 position: Researcher
+degree: PhD in Physics
 photo: ../../images/members/a-pyryaeva.jpg
 educations:
   - start: 2005

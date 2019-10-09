@@ -2,8 +2,9 @@
 order: 4
 firstName: Александр
 middleName: Витальевич
-lastName: "Демьяненко"
+lastName: Демьяненко
 position: Лаборант
+degree: Бакалавр физики
 photo: ../../images/members/default.jpg
 educations:
   - start: 2015
