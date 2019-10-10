@@ -13,6 +13,7 @@ import "./research-projects.scss"
 export default ({ data: { researchProject, publications }, pageContext: { locale } }) => {
   const researchProjectNode = getLocalizedNodes(researchProject.nodes, locale, defaultLocale).shift()
   const publicationsNodes = getLocalizedNodes(publications.nodes, locale, defaultLocale)
+    .sort((a, b) => +b.frontmatter.year - +a.frontmatter.year)
 
   const {
     html,

@@ -18,6 +18,7 @@ export default ({ data, pageContext: { locale } }) => {
 
   const publicationsNodes = data.publications.edges.map(e => e.node)
   const publications = getLocalizedNodes(publicationsNodes, locale, defaultLocale)
+    .sort((a, b) => +b.frontmatter.year - +a.frontmatter.year)
 
   let educations = member.educations || []
   educations = educations.sort((a, b) => +b.start - +a.start)
