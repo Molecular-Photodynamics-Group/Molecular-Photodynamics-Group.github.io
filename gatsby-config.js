@@ -33,6 +33,12 @@ module.exports = {
               strict: `ignore`,
             },
           },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 900
+            },
+          },
         ],
       },
     },
