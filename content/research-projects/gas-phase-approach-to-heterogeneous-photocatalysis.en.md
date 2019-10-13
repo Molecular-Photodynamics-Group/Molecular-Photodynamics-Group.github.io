@@ -1,7 +1,7 @@
 ---
 order: 1
 title: Gas-phase approach to the studies of elementary steps of heterogeneous photocatalysis
-photo: ../../images/research-projects/default.jpg
+photo: ../../images/research-projects/1.jpg
 ---
 The use of solar light in photocatalytic process of water splitting for hydrogen production is a key point for hydrogen 
 energetics. Other fields of current and perspective applications of photocatalysis are water and air-purification from 

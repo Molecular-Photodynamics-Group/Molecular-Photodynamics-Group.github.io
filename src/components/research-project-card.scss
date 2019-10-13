@@ -2,17 +2,19 @@
 
 .research-project-card {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 10px 0;
 
   grid-template-columns: auto;
-  grid-template-rows: 200px 1fr;
+  grid-template-rows: 170px 1fr;
   grid-template-areas: 'image' 'info';
 
   border-bottom: 2px solid #d65947;
 
   @media screen and (min-width: 950px) {
+    grid-gap: 0 10px;
+
     grid-template-columns: 300px 1fr;
-    grid-template-rows: 200px;
+    grid-template-rows: 170px;
     grid-template-areas: 'image info';
 
     border-bottom: none;
@@ -22,13 +24,18 @@
   &__image-wrapper {
     grid-area: image;
     overflow: hidden;
+    background-color: #f9f9f9;
   }
 
   &__image {
-    object-fit: cover;
     height: 100%;
     width: 100%;
     transition: all 0.1s ease-in;
+    filter: contrast(0.95);
+
+    img {
+      object-fit: contain !important;
+    }
   }
 
   &__info {
