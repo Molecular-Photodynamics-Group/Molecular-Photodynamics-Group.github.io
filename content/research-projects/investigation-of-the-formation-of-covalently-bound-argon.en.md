@@ -1,6 +1,6 @@
 ---
 order: 3
 title: Investigation of the formation of covalently bound argon
-photo: ../../images/research-projects/default.jpg
+photo: ../../images/research-projects/3.jpg
 ---
 Description will be added soon.
