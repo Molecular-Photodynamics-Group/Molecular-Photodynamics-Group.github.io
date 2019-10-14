@@ -36,6 +36,13 @@
     img {
       object-fit: contain !important;
     }
+
+    border-bottom: 1px solid #eee;
+
+    @media screen and (min-width: 950px) {
+      border-bottom: none;
+      border-right: 1px solid #eee;
+    }
   }
 
   &__info {
