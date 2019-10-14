@@ -34,6 +34,9 @@
   "research-project-page": {
     "publications": "Публикации"
   },
+  "publication-page": {
+    "no-abstract": "Аннотация будет добавлена в ближайшее время."
+  },
   "vacancies-page": {
     "no-vacancies": "К сожалению, в данный момент у нас нет вакансий"
   }

@@ -34,6 +34,9 @@
   "research-project-page": {
     "publications": "Publications"
   },
+  "publication-page": {
+    "no-abstract": "Abstract will be added soon."
+  },
   "vacancies-page": {
     "no-vacancies": "Unfortunately, at the moment we have no vacancies"
   }
