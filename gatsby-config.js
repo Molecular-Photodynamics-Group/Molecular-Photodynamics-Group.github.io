@@ -86,7 +86,7 @@ module.exports = {
         background_color: "#eeeeee",
         theme_color: "#d65947",
         display: "standalone",
-        icon: "src/images/icon.png",
+        icon: "images/icon.png",
         localize: [
           {
             start_url: `/en/`,
