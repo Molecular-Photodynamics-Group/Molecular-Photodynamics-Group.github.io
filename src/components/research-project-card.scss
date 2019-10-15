@@ -5,7 +5,7 @@
   grid-gap: 10px 0;
 
   grid-template-columns: auto;
-  grid-template-rows: 170px 1fr;
+  grid-template-rows: 180px 1fr;
   grid-template-areas: 'image' 'info';
 
   border-bottom: 2px solid #d65947;
@@ -14,7 +14,7 @@
     grid-gap: 0 10px;
 
     grid-template-columns: 300px 1fr;
-    grid-template-rows: 170px;
+    grid-template-rows: 180px;
     grid-template-areas: 'image info';
 
     border-bottom: none;
