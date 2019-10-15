@@ -65,6 +65,8 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
 
   const nodes = result.data.allMarkdownRemark.edges.map(e => e.node)
+    .filter(e => e.fields.name !== "index");
+
   const groupedNodes = groupBy(nodes, e => e.fields.slug)
 
   await Object.keys(groupedNodes).map(async slug => {

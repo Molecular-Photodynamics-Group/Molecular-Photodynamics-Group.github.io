@@ -491,6 +491,7 @@ type MarkdownRemarkFrontmatter {
     doi: String
     educations: [MarkdownRemarkFrontmatterEducations]
     firstName: String
+    header: String
     interests: [String]
     issue: String
     journal: String
@@ -736,6 +737,7 @@ type SitePluginPluginOptions {
     icon: String
     lang: String
     localize: [SitePluginPluginOptionsLocalize]
+    maxWidth: Int
     name: String
     path: String
     pathCheck: Boolean
@@ -761,15 +763,18 @@ type SitePluginPluginOptionsLocalize {
 }
 
 type SitePluginPluginOptionsPlugins {
+    browserAPIs: [String]
     id: String
     name: String
     pluginFilepath: String
     pluginOptions: SitePluginPluginOptionsPluginsPluginOptions
     resolve: String
+    ssrAPIs: [String]
     version: String
 }
 
 type SitePluginPluginOptionsPluginsPluginOptions {
+    maxWidth: Int
     strict: String
 }
 
@@ -1040,6 +1045,7 @@ enum FileFieldsEnum {
     childMarkdownRemark___frontmatter___educations___place
     childMarkdownRemark___frontmatter___educations___start
     childMarkdownRemark___frontmatter___firstName
+    childMarkdownRemark___frontmatter___header
     childMarkdownRemark___frontmatter___interests
     childMarkdownRemark___frontmatter___issue
     childMarkdownRemark___frontmatter___journal
@@ -1477,6 +1483,7 @@ enum MarkdownRemarkFieldsEnum {
     frontmatter___educations___place
     frontmatter___educations___start
     frontmatter___firstName
+    frontmatter___header
     frontmatter___interests
     frontmatter___issue
     frontmatter___journal
@@ -1884,15 +1891,18 @@ enum SitePageFieldsEnum {
     pluginCreator___pluginOptions___localize___lang
     pluginCreator___pluginOptions___localize___name
     pluginCreator___pluginOptions___localize___start_url
+    pluginCreator___pluginOptions___maxWidth
     pluginCreator___pluginOptions___name
     pluginCreator___pluginOptions___path
     pluginCreator___pluginOptions___pathCheck
     pluginCreator___pluginOptions___pathToConfigModule
     pluginCreator___pluginOptions___plugins
+    pluginCreator___pluginOptions___plugins___browserAPIs
     pluginCreator___pluginOptions___plugins___id
     pluginCreator___pluginOptions___plugins___name
     pluginCreator___pluginOptions___plugins___pluginFilepath
     pluginCreator___pluginOptions___plugins___resolve
+    pluginCreator___pluginOptions___plugins___ssrAPIs
     pluginCreator___pluginOptions___plugins___version
     pluginCreator___pluginOptions___policy
     pluginCreator___pluginOptions___policy___allow
@@ -2030,16 +2040,20 @@ enum SitePluginFieldsEnum {
     pluginOptions___localize___lang
     pluginOptions___localize___name
     pluginOptions___localize___start_url
+    pluginOptions___maxWidth
     pluginOptions___name
     pluginOptions___path
     pluginOptions___pathCheck
     pluginOptions___pathToConfigModule
     pluginOptions___plugins
+    pluginOptions___plugins___browserAPIs
     pluginOptions___plugins___id
     pluginOptions___plugins___name
     pluginOptions___plugins___pluginFilepath
+    pluginOptions___plugins___pluginOptions___maxWidth
     pluginOptions___plugins___pluginOptions___strict
     pluginOptions___plugins___resolve
+    pluginOptions___plugins___ssrAPIs
     pluginOptions___plugins___version
     pluginOptions___policy
     pluginOptions___policy___allow
@@ -2365,6 +2379,7 @@ input MarkdownRemarkFrontmatterFilterInput {
     doi: StringQueryOperatorInput
     educations: MarkdownRemarkFrontmatterEducationsFilterListInput
     firstName: StringQueryOperatorInput
+    header: StringQueryOperatorInput
     interests: StringQueryOperatorInput
     issue: StringQueryOperatorInput
     journal: StringQueryOperatorInput
@@ -2522,6 +2537,7 @@ input SitePluginPluginOptionsFilterInput {
     icon: StringQueryOperatorInput
     lang: StringQueryOperatorInput
     localize: SitePluginPluginOptionsLocalizeFilterListInput
+    maxWidth: IntQueryOperatorInput
     name: StringQueryOperatorInput
     path: StringQueryOperatorInput
     pathCheck: BooleanQueryOperatorInput
@@ -2551,11 +2567,13 @@ input SitePluginPluginOptionsLocalizeFilterListInput {
 }
 
 input SitePluginPluginOptionsPluginsFilterInput {
+    browserAPIs: StringQueryOperatorInput
     id: StringQueryOperatorInput
     name: StringQueryOperatorInput
     pluginFilepath: StringQueryOperatorInput
     pluginOptions: SitePluginPluginOptionsPluginsPluginOptionsFilterInput
     resolve: StringQueryOperatorInput
+    ssrAPIs: StringQueryOperatorInput
     version: StringQueryOperatorInput
 }
 
@@ -2564,6 +2582,7 @@ input SitePluginPluginOptionsPluginsFilterListInput {
 }
 
 input SitePluginPluginOptionsPluginsPluginOptionsFilterInput {
+    maxWidth: IntQueryOperatorInput
     strict: StringQueryOperatorInput
 }
 

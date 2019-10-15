@@ -1,25 +1,26 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
-import { FormattedMessage, useIntl } from "react-intl"
 
 import { Layout } from "../components/layout"
+import { getLocalizedNodes } from "../intl/utils"
+import { defaultLocale } from "../intl/locales"
 
-import "./index.scss"
+export default ({ data, pageContext: { locale } }) => {
+  const indexNodes = data.allMarkdownRemark.edges.map(e => e.node)
+  const index = getLocalizedNodes(indexNodes, locale, defaultLocale).shift()
 
-export default ({ data }) => {
-  const { formatMessage } = useIntl()
+  const {
+    html,
+    frontmatter: {
+      header,
+    },
+  } = index
 
   return (
     <Layout>
       <section>
-        <h1>
-          <FormattedMessage id="index-page.header" />
-        </h1>
-        <Img className="card"
-          fluid={data.file.childImageSharp.fluid}
-          alt={formatMessage({ id: "index-page.image-alt" })}
-        />
+        <h1>{header}</h1>
+        <div dangerouslySetInnerHTML={{ __html: html }} />
       </section>
     </Layout>
   )
@@ -27,10 +28,17 @@ export default ({ data }) => {
 
 export const query = graphql`
     query {
-        file(relativePath: { eq: "group-photo.jpg" }) {
-            childImageSharp {
-                fluid(maxWidth: 1200) {
-                    ...GatsbyImageSharpFluid
+        allMarkdownRemark(filter: { fields: { name: { eq: "index" }}}) {
+            edges {
+                node {
+                    html
+                    frontmatter {
+                        header
+                    }
+                    fields {
+                        locale
+                        slug
+                    }
                 }
             }
         }
