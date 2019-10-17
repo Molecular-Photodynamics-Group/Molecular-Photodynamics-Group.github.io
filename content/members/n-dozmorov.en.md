@@ -4,7 +4,7 @@ firstName: Nikolay
 lastName: Dozmorov
 position: Junior Researcher
 degree: Master of Science in Physics
-photo: ../../images/members/default.jpg
+photo: ../../images/members/n-dozmorov.jpg
 educations:
   - start: 2011
     end: 2015

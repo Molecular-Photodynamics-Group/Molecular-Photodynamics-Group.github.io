@@ -4,7 +4,7 @@ firstName: Константин
 middleName: Дмитриевич
 lastName: Венедиктов
 position: Лаборант
-photo: ../../images/members/default.jpg
+photo: ../../images/members/k-venediktov.jpg
 educations:
   - start: 2015
     place: Новосибирский государственный университет

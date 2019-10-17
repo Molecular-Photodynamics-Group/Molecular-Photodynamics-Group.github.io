@@ -59,7 +59,7 @@ export const query = graphql`
                         position,
                         photo {
                             childImageSharp {
-                                fluid(maxWidth: 300) {
+                                fluid {
                                     ...GatsbyImageSharpFluid
                                 }
                             }

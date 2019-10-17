@@ -5,7 +5,7 @@ middleName: Владимирович
 lastName: Дозморов
 position: Младший научный сотрудник
 degree: Магистр физики
-photo: ../../images/members/default.jpg
+photo: ../../images/members/n-dozmorov.jpg
 educations:
   - start: 2011
     end: 2015
