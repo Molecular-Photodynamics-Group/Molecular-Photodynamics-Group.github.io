@@ -115,7 +115,7 @@ export const query = graphql`
                         degree
                         photo {
                             childImageSharp {
-                                fluid(maxWidth: 300) {
+                                fluid {
                                     ...GatsbyImageSharpFluid
                                 }
                             }
