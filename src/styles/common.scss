@@ -63,3 +63,11 @@ image {
     }
   }
 }
+
+.title-link {
+  color: black;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

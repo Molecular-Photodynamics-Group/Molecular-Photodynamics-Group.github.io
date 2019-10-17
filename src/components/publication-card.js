@@ -15,7 +15,7 @@ export const PublicationCard = ({ node }) => {
   return (
     <article className="publication-card card card--left card--with-hover">
       <h3 className="publication-card__title">
-        <Link to={node.fields.slug} className="publication-card__title-link">
+        <Link to={node.fields.slug} className="title-link">
           <span dangerouslySetInnerHTML={{ __html: node.frontmatter.title }} />
         </Link>
       </h3>

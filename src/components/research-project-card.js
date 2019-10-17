@@ -13,7 +13,9 @@ export const ResearchProjectCard = ({ title, photo, slug }) => {
       </div>
       <div className="research-project-card__info">
         <h3 className="research-project-card__title">
-          <span dangerouslySetInnerHTML={{ __html: title }} />
+          <Link to={slug} className="title-link">
+            <span dangerouslySetInnerHTML={{ __html: title }} />
+          </Link>
         </h3>
         <Link className="research-project-card__more-link" to={slug}>
           <FormattedMessage id="common.more-details" />
