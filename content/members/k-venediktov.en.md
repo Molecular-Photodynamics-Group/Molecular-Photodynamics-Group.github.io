@@ -3,7 +3,7 @@ order: 4
 firstName: Konstantin
 lastName: Venediktov
 position: Assistant
-photo: ../../images/members/default.jpg
+photo: ../../images/members/k-venediktov.jpg
 educations:
  - start: 2015
    place: Novosibirsk State University

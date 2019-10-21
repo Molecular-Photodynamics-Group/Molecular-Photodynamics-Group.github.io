@@ -4,7 +4,7 @@ firstName: Алексей
 middleName: Васильевич
 lastName: Бакланов
 position: Руководитель группы
-degree: д.x.н.
-photo: ../../images/members/a-baklanov.jpg
+degree: д.x.н., профессор
+photo: ../../images/members/default.jpg
 ---
 
