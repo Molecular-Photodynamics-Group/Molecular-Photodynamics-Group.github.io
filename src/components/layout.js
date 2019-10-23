@@ -30,6 +30,9 @@ export const Layout = ({ children, title, description }) => {
         <title>{siteTitle}</title>
         <meta name="description" content={siteDescription} />
         <meta name="yandex-verification" content="30c2d0909ff74243" />
+
+        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+        <link rel="dns-prefetch" href="//mc.yandex.ru" />
       </Helmet>
       <header className="layout__header"><Header /></header>
       <main className="layout__main">{children}</main>
