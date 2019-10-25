@@ -3,18 +3,22 @@
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr;
+    grid-template-areas: 'photo' 'info';
 
     @media screen and (min-width: 950px) {
       grid-template-columns: 1fr 330px;
+      grid-template-areas: 'info photo';
     }
   }
 
 
   &__info {
+    grid-area: info;
     padding: 20px;
   }
 
   &__photo-wrapper {
+    grid-area: photo;
     height: 250px;
   }
 
