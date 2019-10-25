@@ -5,7 +5,7 @@ middleName: Витальевич
 lastName: Демьяненко
 position: Лаборант
 degree: Бакалавр физики
-photo: ../../images/members/default.jpg
+photo: ../../images/members/a-demyanenko.jpg
 educations:
   - start: 2015
     end: 2019

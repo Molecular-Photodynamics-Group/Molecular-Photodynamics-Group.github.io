@@ -5,6 +5,6 @@ middleName: Васильевич
 lastName: Бакланов
 position: Руководитель группы
 degree: д.x.н., профессор
-photo: ../../images/members/default.jpg
+photo: ../../images/members/a-baklanov.jpg
 ---
 

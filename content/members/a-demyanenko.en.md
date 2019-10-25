@@ -4,7 +4,7 @@ firstName: Alexander
 lastName: Demyanenko
 position: Assistant
 degree: Bachelor of Science in Physics
-photo: ../../images/members/default.jpg
+photo: ../../images/members/a-demyanenko.jpg
 educations:
   - start: 2015
     end: 2019
