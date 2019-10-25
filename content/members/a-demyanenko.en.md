@@ -2,7 +2,7 @@
 order: 4
 firstName: Alexander
 lastName: Demyanenko
-position: Assistant
+position: Master student
 degree: Bachelor of Science in Physics
 photo: ../../images/members/a-demyanenko.jpg
 educations:

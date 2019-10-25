@@ -1,9 +1,9 @@
 ---
-order: 4
+order: 5
 firstName: Константин
 middleName: Дмитриевич
 lastName: Венедиктов
-position: Лаборант
+position: Студент бакалавриата
 photo: ../../images/members/k-venediktov.jpg
 educations:
   - start: 2015

@@ -3,7 +3,7 @@ order: 3
 firstName: Николай
 middleName: Владимирович
 lastName: Дозморов
-position: Младший научный сотрудник
+position: Аспирант
 degree: Магистр физики
 photo: ../../images/members/n-dozmorov.jpg
 educations:

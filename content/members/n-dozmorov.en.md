@@ -2,7 +2,7 @@
 order: 3
 firstName: Nikolay
 lastName: Dozmorov
-position: Junior Researcher
+position: PhD student
 degree: Master of Science in Physics
 photo: ../../images/members/n-dozmorov.jpg
 educations:

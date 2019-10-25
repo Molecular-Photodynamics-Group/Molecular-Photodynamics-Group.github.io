@@ -1,8 +1,8 @@
 ---
-order: 4
+order: 5
 firstName: Konstantin
 lastName: Venediktov
-position: Assistant
+position: Bachelor student
 photo: ../../images/members/k-venediktov.jpg
 educations:
  - start: 2015

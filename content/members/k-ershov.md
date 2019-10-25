@@ -3,7 +3,7 @@ order: 3
 firstName: Кирилл
 middleName: Сергеевич
 lastName: Ершов
-position: Младший научный сотрудник
+position: Аспирант
 degree: Магистр физики
 photo: ../../images/members/k-ershov.jpg
 educations:
