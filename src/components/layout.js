@@ -30,6 +30,7 @@ export const Layout = ({ children, title, description }) => {
         <title>{siteTitle}</title>
         <meta name="description" content={siteDescription} />
         <meta name="yandex-verification" content="30c2d0909ff74243" />
+        <meta name="google-site-verification" content="evqe50GmPBx9m--ezwaQnwi4uEafF5TsG9h_mXxv8u4" />
 
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
         <link rel="dns-prefetch" href="//mc.yandex.ru" />
