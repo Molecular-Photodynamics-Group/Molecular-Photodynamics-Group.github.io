@@ -16,7 +16,7 @@ describe("Member card", () => {
       slug: "/slug/",
     }
 
-    const { getByText, getBy } = render(<IntlProvider locale="en" onError={() => {}} ><MemberCard {...config} /></IntlProvider>)
+    const { getByText } = render(<IntlProvider locale="en" onError={() => {}} ><MemberCard {...config} /></IntlProvider>)
 
     expect(getByText(config.position)).toBeInTheDocument()
     expect(getByText(config.name)).toBeInTheDocument()

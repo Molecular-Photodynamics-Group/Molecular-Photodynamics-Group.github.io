@@ -42,7 +42,8 @@ image {
   overflow: hidden;
   border-radius: 5px;
   background-color: white;
-  transition: all 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
+  outline-offset: 1px;
 
   &--left {
     border-left: 2px solid #d65947;
@@ -57,17 +58,11 @@ image {
   }
 
   &--with-hover {
+    cursor: pointer;
+
     &:hover {
       transform: translateY(-4px);
       box-shadow: 0 0 8px 3px #bbb;
     }
-  }
-}
-
-.title-link {
-  color: black;
-
-  &:hover {
-    text-decoration: underline;
   }
 }
